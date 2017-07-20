@@ -1,0 +1,44 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "a webpack program",
+  "main": "app.js",
+  "scripts": {
+    "dev":"webpack  --progress --colors --watch --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfjyx/webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "wolfjyx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfjyx/webpack/issues"
+  },
+  "homepage": "https://github.com/wolfjyx/webpack#readme",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "glob": "^7.0.5",
+    "html-webpack-plugin": "^2.22.0",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "jquery": "^3.1.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "css-mqpacker": "^5.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "precss": "^1.4.0"
+  }
+}
